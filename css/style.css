@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
+    
 }
 
 .card{
@@ -20,14 +21,18 @@ body{
 
 .card-1{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 
 .card-2{
     background-color: hsl(184, 100%, 22%);
+ 
+    
 }
 
 .card-3{
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
 }
 
 .title{
@@ -87,6 +92,14 @@ body{
 
     .card{
         width: 80%;
+    }
+
+    .card-1{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-3{
+        border-radius: 0 0 10px 10px;
     }
 
 }
