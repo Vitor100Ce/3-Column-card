@@ -76,5 +76,17 @@ body{
     color: hsl(179, 100%, 13%);
 }
 
+/* Responsivo */
+
+@media screen and (max-width: 35rem){
+
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 80%;
+    }
 
 
