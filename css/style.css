@@ -102,6 +102,7 @@ body{
 
     .card{
         width: 80%;
+        height: 60%;
     }
 
     .card-1{
@@ -110,6 +111,14 @@ body{
 
     .card-3{
         border-radius: 0 0 10px 10px;
+    }
+
+    .button{
+    
+        align-self: flex-end;
+        position: absolute;
+        top: 80%;
+        right: 55%;
     }
 
 }
