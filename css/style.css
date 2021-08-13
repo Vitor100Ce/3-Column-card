@@ -2,6 +2,7 @@ body{
     height: 100vh;
     width: 100vw;
     font-size: 15px;
+    height: 100vh;
 }
 
 .container{
@@ -17,6 +18,9 @@ body{
     height: 80%;
     padding: 2.5rem;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .card-1{
@@ -49,6 +53,7 @@ body{
     line-height: 1.5rem;
     width: 90%;
     margin-bottom: 5rem;
+    flex-grow: 1;
 }
 
 .button{
@@ -60,6 +65,11 @@ body{
     border-radius: 2rem;
     padding: 1rem 1.8rem;
     transition: all .3s;
+    align-self: flex-end;
+    position: absolute;
+    top: 80%;
+    right: 45%;
+    
 }
 
 .button:hover{
