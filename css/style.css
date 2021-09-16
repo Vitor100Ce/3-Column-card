@@ -65,11 +65,7 @@ body{
     border-radius: 2rem;
     padding: 1rem 1.8rem;
     transition: all .3s;
-    align-self: flex-end;
-    position: absolute;
-    top: 80%;
-    right: 45%;
-    
+    align-self: flex-start; 
 }
 
 .button:hover{
